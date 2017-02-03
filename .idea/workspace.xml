@@ -287,7 +287,7 @@
       <workItem from="1486077538971" duration="4204000" />
       <workItem from="1486081853148" duration="4924000" />
       <workItem from="1486131985036" duration="3764000" />
-      <workItem from="1486136110622" duration="6222000" />
+      <workItem from="1486136110622" duration="6288000" />
     </task>
     <task id="LOCAL-00001" summary="Catching up on git">
       <created>1486140613418</created>
@@ -303,11 +303,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486142694788</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Footer was placed inside the page. Changed the footer to be placed within the grey like the other pages.">
+      <created>1486142753078</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1486142753078</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82686000" />
+    <option name="totallyTimeSpent" value="82752000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
