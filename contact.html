@@ -1,67 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
     <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
     <meta charset="UTF-8">
     <title>My Portfolio</title>
-
-    <style>
-        body{
-            background-color: #DDD;
-            font-family: 'Bitter', serif;
-        }
-        .navsection{
-            display:flex;
-            justify-content: space-around;
-            width: 96%;
-            background-color: #438496;
-            margin: 0 auto;
-            border-radius: 3px;
-            padding: 10px;
-        }
-        .container{
-            width: 80%;
-            margin: 0 auto;
-            background-color: #FFF;
-            padding: 15px;
-            border-radius: 3px;;
-        }
-        .navsection a{
-            color: #FFF;
-            text-decoration: none;
-            padding: 5px;
-        }
-        a{
-
-        }
-        .mytitle{
-            width: 98%;
-            height: 250px;
-            background-size: cover;
-            margin: 20px auto;
-        }
-        .mytitle span {
-            text-align: center;
-            font-size: 63px;
-            color: seagreen;
-            padding-top: 74px;
-            display: block;
-        }
-        #homepage .homepagelink{
-            background-color: #CD5360;
-        }
-        .navlink:hover{
-            background-color: aqua;
-        }
-        .footer{
-            text-align: center;
-        }
-
-    </style>
 </head>
 <body id="homepage">
-
-<!-- <img style="width: 600px;" src="images/bear.png" /> -->
 
     <div class="container">
         <div class="navsection">
@@ -70,31 +15,28 @@
             <a href="resume.html" class="navlink">Resume</a>
             <a href="contact.html" class="homepagelink navlink">Contact</a>
         </div>
-            <div class="mytitle">
-                <span>Dallin Johnson</span>
-            </div>
-        <header>
-            <h1>Contact Me</h1>
-        </header>
-        <form action="" Method="" enctype="" name="" class="">
+
+                <div class="header">
+                    <header>
+                        <h1>Contact Me <a href="mailto:johnson.dallin@gmail.com"><img src="images/email.jpg" width="30" height="30" alt="email me" /></a>
+                            <a href="https://www.linkedin.com/in/dallinjohnson"><img src="images/linkedin.jpg" width="30" height="30" alt="my linkedin" /></a></h1>
+                    </header>
+                </div>
+
+        <form action="mailto:johnson.dallin@gmail.com" Method="post" ame="contactInformation" class="contact">
 
             <fieldset>
                 <legend>Contact Information</legend>
-                <p><label><span>First Name:</span><input type="text" name="first name" placeholder="first name"></label></p>
-                <p><label><span>Last Name:</span><input type="text" name="last name" placeholder="last name"></label></p>
-                <p><label><span>Email:</span><input type="email" name="email" placeholder="email@gmail.com"></label></p>
-                <p><label><span>Company:</span><input type="text" name="company name"></label></p>
-                <p><span>Message:</span></p><p><textarea name="comments"></textarea></p>
-                <input type="submit" name="submit" value="Submit" class="userbutton">
+                <p><label for="firstName"><span>First Name:</span><input id="firstName" type="text" name="first name" placeholder="first name" required class="information"></label></p>
+                <p><label for="lastName"><span>Last Name:</span><input id="lastName" type="text" name="last name" placeholder="last name" required class="information"></label></p>
+                <p><label for="email"><span>Email:</span><input id="email" type="email" name="email" placeholder="email@gmail.com" required class="information"></label></p>
+                <p><label for="company"><span>Company:</span><input id="company" type="text" name="company name" class="information"></label></p>
+                <p><label for="message">Message:</label></p><p><textarea id="message" name="comments" cols="50" rows="5"></textarea></p>
+                <p style="text-align:left;"><input type="submit" name="submit" value="Submit" onclick="alert ('Thank you! I will be in contact within two business days.')" class="userbutton">
+                    <input type="reset" name="reset" value="Reset" onclick="alert ('Information reset')" class="userbutton"></p>
             </fieldset>
-
         </form>
     </div>
-
-<!-- Start of the header -->
-
-
-<!-- Start of main content -->
 
 <!-- Start of the footer -->
     <div class="footer">
