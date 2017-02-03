@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2caa87db-9a78-44a7-8170-66c6a227c54d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio.html" afterPath="$PROJECT_DIR$/portfolio.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -288,7 +287,7 @@
       <workItem from="1486077538971" duration="4204000" />
       <workItem from="1486081853148" duration="4924000" />
       <workItem from="1486131985036" duration="3764000" />
-      <workItem from="1486136110622" duration="6091000" />
+      <workItem from="1486136110622" duration="6222000" />
     </task>
     <task id="LOCAL-00001" summary="Catching up on git">
       <created>1486140613418</created>
@@ -297,11 +296,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486140613418</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Footer was placed inside the page. Changed the footer to be placed within the grey like the other pages.">
+      <created>1486142694788</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1486142694788</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82555000" />
+    <option name="totallyTimeSpent" value="82686000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -343,7 +349,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Catching up on git" />
-    <option name="LAST_COMMIT_MESSAGE" value="Catching up on git" />
+    <MESSAGE value="Footer was placed inside the page. Changed the footer to be placed within the grey like the other pages." />
+    <option name="LAST_COMMIT_MESSAGE" value="Footer was placed inside the page. Changed the footer to be placed within the grey like the other pages." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
