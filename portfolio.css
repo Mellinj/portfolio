@@ -19,7 +19,7 @@ body{
 }
 .navlink:hover{
     background-color: #62EDD6;
-    border-radius: .9rem;
+    border-radius: .5rem;
 }
 .container{
     width: 80%;
@@ -65,7 +65,7 @@ a{
 }
 #homepage .homepagelink{
     background-color: #CD5360;
-    border-radius: .9rem;
+    border-radius: .5rem;
 }
 .header{
     text-align: center;
@@ -109,6 +109,7 @@ p {
     background-color: lightgrey;
     width: 200px;
     border: 3px solid #438496;
+    border-radius: .3rem;
     padding: 10px;
     margin: 15px;
     margin-left: 440px;
