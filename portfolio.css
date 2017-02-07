@@ -2,6 +2,7 @@ body{
    background-color: #7D7D7D;
     font-family: 'Bitter', serif;
 }
+/* Navigation */
 .navsection{
     display:flex;
     justify-content: space-around;
@@ -91,11 +92,13 @@ p {
     width: 50%;
     height: auto;
 }
+/* Header */
 .header1{
     font-size: 28px;
 }
 .header2{
     font-size: 20px;
+
 }
 .header3 {
     font-size: 28px;
@@ -108,11 +111,14 @@ p {
     border: 3px solid #438496;
     padding: 10px;
     margin: 15px;
+    margin-left: 440px;
 }
 .header4{
     font-size: 20px;
     margin-top: 10px;
-    margin-left: 25px;
+    margin-right: 25px;
+    padding-left:25px;
+
 }
 .container:hover {
     bottom: 0;
@@ -127,13 +133,14 @@ p {
     padding: .3rem;
 }
 .mydescription{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 375px;
+    margin-right: 40px;
+    margin-top: -170px;
     word-wrap: break-word;
+    font-size:18px;
 }
 img{
     border-radius: 6px;
-
 }
 .relative{
     position: relative;
@@ -143,11 +150,15 @@ img{
     margin-top: 50px;
     margin-left: 120px;
 }
-.pos_left1 img {
+.pos_left2 img{
+    float: left;
     width: 350px;
     height: 500px;
-    margin-top: 35px;
-
+    margin-top: -110px;
+}
+.pos_left2 {
+    flex: inherit;
+    margin-bottom: 250px;
 }
 .firstWebsite{
     margin-top: -130px;
