@@ -90,7 +90,7 @@ p {
     box-shadow: antiquewhite;
 }
 #button2:hover {
-    background-color: aqua;
+    background-color: #62EDD6;
     border-radius: .9rem;
 }
 
@@ -131,11 +131,15 @@ p {
     bottom: 0;
     height: 100%;
 }
-
 .information{
     width: 15rem;
     border: solid 1px;
     padding: .3rem;
+    float:right;
+    margin-right:510px;
+}
+.information:hover{
+    background-color:lightgrey;
 }
 #mydescription{
     margin-left: 375px;
@@ -167,12 +171,6 @@ p {
     margin-right: 25px;
     font-size: 16px;
     word-wrap: break-word;
-}
-#firstwebsite a{
-    text-decoration: none;
-}
-#firstwebsite a:hover{
-    color: #62EDD6;
 }
 .inner-div{
     padding:0 0 30px 15px;
