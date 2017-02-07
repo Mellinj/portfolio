@@ -2,6 +2,10 @@ body{
    background-color: #7D7D7D;
     font-family: 'Bitter', serif;
 }
+p {
+    width: 95%;
+}
+
 /* Navigation */
 .navsection{
     display:flex;
@@ -16,11 +20,24 @@ body{
     color: #FFF;
     text-decoration: none;
     padding: 5px;
+    transition-property: background-color, color;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+    border-radius: 3px;
 }
 .navlink:hover{
     background-color: #62EDD6;
-    border-radius: .5rem;
+    border-radius: 3px;
+    transition-property: background-color, color;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
 }
+#homepage .homepagelink{
+    background-color: #CD5360;
+    border-radius: 3px;
+}
+
+/* Main */
 .container{
     width: 80%;
     height:100%;
@@ -31,13 +48,14 @@ body{
     -webkit-box-shadow: 10px 10px 5px 4px rgba(0,0,0,0.36);
     -moz-box-shadow: 10px 10px 5px 4px rgba(0,0,0,0.36);
     box-shadow: 10px 10px 5px 4px rgba(0,0,0,0.36);
-
 }
 .mainsection{
     display: flex;
     position: relative;
     left: 15px;
 }
+
+/* Title */
 .mytitle{
     width: 98%;
     height: 250px;
@@ -52,9 +70,8 @@ body{
     padding-top: 74px;
     display: block;
 }
-a{
 
-}
+/* Button */
 .userbutton {
     width: 6rem;
     border: solid 1px;
@@ -62,17 +79,6 @@ a{
     background-color: #B37D4E;
     font-size: 15px;
     box-shadow: antiquewhite;
-}
-#homepage .homepagelink{
-    background-color: #CD5360;
-    border-radius: .5rem;
-}
-.header{
-    text-align: center;
-    font-size: 20px;
-}
-p {
-    width: 95%;
 }
 #button2 {
     display:block;
@@ -87,23 +93,29 @@ p {
     background-color: aqua;
     border-radius: .9rem;
 }
-.image {
-    display: block;
-    width: 50%;
-    height: auto;
-}
+
 /* Header */
-.header1{
+.header{
+    text-align: center;
+    font-size: 20px;
+}
+#header1{
     font-size: 28px;
 }
-.header2{
+#header2{
     font-size: 20px;
 
 }
-.header3 {
+#header3 {
     font-size: 28px;
     margin-top: 50px;
     margin-left: 45px;
+}
+#header4{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 25px;
+    padding-left:25px;
 }
 .headerBox{
     background-color: lightgrey;
@@ -114,67 +126,75 @@ p {
     margin: 15px;
     margin-left: 440px;
 }
-.header4{
-    font-size: 20px;
-    margin-top: 10px;
-    margin-right: 25px;
-    padding-left:25px;
 
-}
 .container:hover {
     bottom: 0;
     height: 100%;
 }
-.inner-div{
-    padding:0 0 30px 15px;
-}
+
 .information{
     width: 15rem;
     border: solid 1px;
     padding: .3rem;
 }
-.mydescription{
+#mydescription{
     margin-left: 375px;
     margin-right: 40px;
     margin-top: -170px;
     word-wrap: break-word;
     font-size:18px;
 }
-img{
-    border-radius: 6px;
-}
+
+/* Position */
 .relative{
     position: relative;
     left: 100px;
 }
-.pos_left{
+#pos_left{
+    float: left;
     margin-top: 50px;
-    margin-left: 120px;
+    margin-left: 60px;
 }
-.pos_left2 img{
+#pos_left2 {
+    flex: inherit;
+    margin-bottom: 250px;
+}
+#firstWebsite{
+    float: right;
+    margin-top: -140px;
+    margin-bottom: 50px;
+    margin-left: 385px;
+    margin-right: 25px;
+    font-size: 16px;
+    word-wrap: break-word;
+}
+#firstwebsite a{
+    text-decoration: none;
+}
+#firstwebsite a:hover{
+    color: #62EDD6;
+}
+.inner-div{
+    padding:0 0 30px 15px;
+}
+
+/* Image Placement */
+.image {
+    display: block;
+    width: 50%;
+    height: auto;
+}
+img{
+    border-radius: 6px;
+}
+#pos_left2 img {
     float: left;
     width: 350px;
     height: 500px;
     margin-top: -110px;
-    margin-left: -6px;
+    margin-left: -4px;
 }
-.pos_left2 {
-    flex: inherit;
-    margin-bottom: 250px;
-}
-.firstWebsite{
-    margin-top: -130px;
-    margin-bottom: 50px;
-    margin-left: 450px;
-    font-size: 14px;
-    word-wrap: break-word;
-}
-.firstwebsite a{
-    text-decoration: none;
-}
-.firstwebsite a:hover{
-    color: #62EDD6;
-}
+
 /* Resume */
 #resume{
     margin-left: 15px;
@@ -187,6 +207,8 @@ img{
 #resume a:hover{
     color: #62EDD6;
 }
+
+/* Footer */
 .footer{
     position: relative;
     margin-top: 20px;
