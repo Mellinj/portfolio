@@ -36,6 +36,9 @@ p {
     background-color: #CD5360;
     border-radius: 3px;
 }
+.keepopen{
+    clear: both;
+}
 
 /* Main */
 .container{
