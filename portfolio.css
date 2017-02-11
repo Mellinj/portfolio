@@ -5,17 +5,19 @@ body{
 p {
     width: 95%;
 }
+h2, h3{
+    text-align: center;
+}
 .wrapper{
     margin-left: auto;
     margin-right: auto;
-    width:960px;
 }
 
 /* Navigation */
 .navsection{
     display:flex;
     justify-content: space-around;
-    width: 96%;
+    width: 97%;
     background-color: #438496;
     margin: 0 auto;
     border-radius: 3px;
@@ -57,6 +59,15 @@ p {
     -moz-box-shadow: 10px 10px 5px 4px rgba(0,0,0,0.36);
     box-shadow: 10px 10px 5px 4px rgba(0,0,0,0.36);
 }
+.container1{
+    width: 100%;
+    height:100%;
+    margin: 0 auto;
+    background-color: #FFF;
+    padding: 15px;
+    border-radius: 3px;
+}
+
 .mainsection{
     display: flex;
     position: relative;
@@ -110,32 +121,11 @@ p {
 #header1{
     font-size: 28px;
 }
-#header2{
+#header2 {
     font-size: 20px;
-
-}
-#header3 {
-    font-size: 28px;
-    margin-top: 50px;
-    margin-left: 45px;
-}
-#header4{
-    font-size: 20px;
-    margin-top: 10px;
-    margin-right: 25px;
-    padding-left:25px;
-}
-.headerBox{
-    background-color: lightgrey;
-    width: 200px;
-    border: 3px solid #438496;
-    border-radius: .3rem;
-    padding: 10px;
-    margin: 15px;
-    margin-left: 440px;
-    position: relative;
 }
 
+/* Information */
 .container:hover {
     bottom: 0;
     height: 100%;
@@ -150,56 +140,24 @@ p {
 .information:hover{
     background-color:lightgrey;
 }
-#mydescription{
-    margin-left: 375px;
-    margin-right: 40px;
-    margin-top: -170px;
-    word-wrap: break-word;
-    font-size:18px;
-}
 
 /* Position */
 .relative{
     position: relative;
     left: 100px;
 }
-#pos_left{
-    float: left;
-    margin-top: 50px;
-    margin-left: 60px;
+.field{
+    margin-left: 22px;
 }
-#pos_left2 {
-    flex: inherit;
-    margin-bottom: 250px;
-}
-#firstWebsite{
-    float: right;
-    margin-top: -140px;
-    margin-bottom: 50px;
-    margin-left: 385px;
-    margin-right: 25px;
-    font-size: 16px;
-    word-wrap: break-word;
-}
-.inner-div{
-    padding:0 0 30px 15px;
+
+/* Column */
+.col-md-12{
+    margin-top: 70px;
 }
 
 /* Image Placement */
-.image {
-    display: block;
-    width: 50%;
-    height: auto;
-}
 img{
     border-radius: 6px;
-}
-#pos_left2 img {
-    float: left;
-    width: 350px;
-    height: 500px;
-    margin-top: -110px;
-    margin-left: -4px;
 }
 
 /* Resume */
@@ -218,6 +176,9 @@ img{
 /* Footer */
 .footer{
     position: relative;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: 38%;
+    background-color: #7D7D7D;
+    padding: 10px;
 }
+

@@ -1,55 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="portfolio.css">
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
     <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
-    <meta charset="UTF-8">
-    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+    <style>
+
+
+        /* Add a gray background color and some padding to the footer */
+        footer {
+            background-color: #7D7D7D;
+            padding: 10px;
+        }
+    </style>
 </head>
+
 <body id="homepage">
 <div class="wrapper">
 
-<div class="container">
-    <div class="navsection">
-        <a href="home.html" class="navlink">About Me</a>
-        <a href="portfolio.html" class="homepagelink navlink">Portfolio</a>
-        <a href="resume.html" class="navlink">Resume</a>
-        <a href="contact.html" class="navlink">Contact</a>
-        <div class="keepopen"></div>
-    </div>
-    <div class="header">
-        <header>
-            <h1>Portfolio</h1>
-        </header>
-    </div>
+    <div class="container">
+        <div class="navsection">
+            <a href="home.html" class="navlink">About Me</a>
+            <a href="portfolio.html" class="homepagelink navlink">Portfolio</a>
+            <a href="resume.html" class="navlink">Resume</a>
+            <a href="contact.html" class="navlink">Contact</a>
+            <div class="keepopen"></div>
+        </div>
 
-    <div class="mainsection">
-        <div id="header1">
+        <div class="header">
+            <header>
+                <h1>Portfolio</h1>
+            </header>
+        </div>
+
+        <div class="mainsection">
+            <div id="header1">
                 <span>Dallin Johnson</span>
-        <div id="header2">
-                <span>Web Developer</span>
+                <div id="header2">
+                    <span>Web Developer</span>
+                </div>
+            </div>
         </div>
 
-        <div id="pos_left">
-
-        <img src="images/comfort.jpg" alt="couple comforting one another">
-
-        </div>
-        <div id="firstWebsite">
-            <p>This is the first website that I created.  I created this practicing html and some css skills.
-            </p>
-            <a href="http://teacher2design.com/sandbox/" target="_blank">View Website &rarr;</a>
+        <div class="container-fluid bg-3 text-center">
+            <h3></h3><br>
+            <div class="row">
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <img id="mypic" src="images/infertility.jpg" class="img-responsive" style="width:100%" alt="Image">
+                    <p>This is the first website that I created.  I created this practicing html and some css skills.</p><a href="http://teacher2design.com/sandbox/" target="_blank">View Website &rarr;</a>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                    <p>Some text..</p>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                    <p>Some text..</p>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-</div>
-<!-- Start of the footer -->
+
+    <!-- Start of the footer -->
     <div class="footer">
-    <footer>
-        <p>Copyright &copy; Dallin Johnson 2017</p>
-    </footer>
+        <footer>
+            <p>Copyright &copy; Dallin Johnson 2017</p>
+        </footer>
     </div>
 </div>
+<script
+        src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
 </body>
 </html>
-
