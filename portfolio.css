@@ -92,7 +92,7 @@ h2, h3{
 
 /* Button */
 .userbutton {
-    width: 6rem;
+    width: 8rem;
     border: solid 1px;
     border-radius: .6rem;
     background-color: #B37D4E;
@@ -131,7 +131,7 @@ h2, h3{
     height: 100%;
 }
 .information{
-    width: 15rem;
+    width: 22rem;
     border: solid 1px;
     padding: .3rem;
     display:flex;
@@ -163,7 +163,7 @@ img{
 /* Resume */
 #resume{
     margin-left: 15px;
-    font-size: 20px;
+    font-size: 24px;
 }
 #resume a{
     text-decoration: none;
