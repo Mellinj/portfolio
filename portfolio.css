@@ -149,6 +149,9 @@ h2, h3{
 .field{
     margin-left: 22px;
 }
+#family{
+    max-width: 100%
+}
 
 /* Column */
 .col-md-12{
